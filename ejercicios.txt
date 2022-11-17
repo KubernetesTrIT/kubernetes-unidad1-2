@@ -1,0 +1,8 @@
+Los ejercicios de curso de kubernetes deben estar en formato yaml, en ficheros separados.
+En caso de que no tengas que realizar un tipo de tarea que disponga ficheros se puede subir las imagenes en un PDF.
+
+1. Instalar kubernetes mediante docker-desktop o kind. En caso de que se realice con kind tiene que ser instalado en una maquina virtual.
+2. Hacer el pull del repositorio de trabajo de kubernetes en /opt
+3. Una vez que ya estas conectado al cluster de kubernetes exportar la salida del estado de los nodos del cluster a > /opt/nodes y subir este fichero al repositorio
+    Ejemplo: kubectl get pod > /opt/pods
+
