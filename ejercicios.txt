@@ -5,4 +5,6 @@ En caso de que no tengas que realizar un tipo de tarea que disponga ficheros se 
 2. Hacer el pull del repositorio de trabajo de kubernetes en /opt
 3. Una vez que ya estas conectado al cluster de kubernetes exportar la salida del estado de los nodos del cluster a > /opt/nodes y subir este fichero al repositorio
     Ejemplo: kubectl get pod > /opt/pods
+4. Instalar la herramienta k9s (no es necesario imagen) pero te ayudará en el curso.
+5. 
 
